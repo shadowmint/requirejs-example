@@ -1,6 +1,7 @@
 require.config({
     baseUrl: '/js/',
     paths: {
+      'obscure': '../lib/obscure/obscure'
     }
 });
 
