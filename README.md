@@ -14,11 +14,7 @@ in app.js.
 
 ### Errors
 
-    "NetworkError: 404 Not Found - http://localhost:3005/js/bar2/a.js"
-    "NetworkError: 404 Not Found - http://localhost:3005/js/bar2/b.js"
-
+    "NetworkError: 404 Not Found - http://localhost:3005/js/bar2/a.js" a.js
+    "NetworkError: 404 Not Found - http://localhost:3005/js/bar2/b.js" b.js
     Error: Script error for: bar2/a http://requirejs.org/docs/errors.html#scripterror
-    var e = new Error(msg + '\nhttp://requirejs.org/docs/errors.html#' + id);
-
     Error: Script error for: bar2/b http://requirejs.org/docs/errors.html#scripterror
-    var e = new Error(msg + '\nhttp://requirejs.org/docs/errors.html#' + id);
